@@ -19,7 +19,14 @@ public class View implements EventHandler<ActionEvent> {
     private stage;
 
     public View(Stage stage) {
-        this.stage = stage;
-        initUI(stage);
+
+    }
+
+    /**
+     * @param actionEvent
+     */
+    @Override
+    public void handle(ActionEvent actionEvent) {
+
     }
 }

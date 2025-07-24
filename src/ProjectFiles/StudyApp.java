@@ -11,7 +11,15 @@ import javafx.stage.Stage;
 public class StudyApp extends Application {
     View view;
 
-    public static void main(String[] args) {    launch(args)    }
+    public static void main(String[] args) {    launch(args);    }
 
 
+    /**
+     * @param stage
+     * @throws Exception
+     */
+    @Override
+    public void start(Stage stage) throws Exception {
+
+    }
 }
